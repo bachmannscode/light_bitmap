@@ -1,0 +1,17 @@
+[package]
+name = "light_bitmap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+trybuild = "1.0"
+
+[features]
+default = ["std"]
+std = []
+
+[package.metadata.docs.rs]
+features = ["std"]
+
